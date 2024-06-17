@@ -1,131 +1,141 @@
-
 :root {
-    --green: hsl(75, 94%, 57%);
-    --white: hsl(0, 0%, 100%);
-    --grey: hsl(0, 0%, 20%);
-    --dark-grey: hsl(0, 0%, 12%);
-    --off-black: hsl(0, 0%, 8%);
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
 }
 
 body {
-    background-color: var(--off-black);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+  background-color: var(--off-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 /*Main*/
 
 main {
-    display: flex;
-    background-color: var(--dark-grey);
-    border-radius: 1rem;
+  display: flex;
+  background-color: var(--dark-grey);
+  border-radius: 1rem;
 }
 
 .social-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 19rem;
-    color: var(--white);
-    font-family: Inter;
-    margin: 2.5rem;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 19rem;
+  color: var(--white);
+  font-family: Inter;
+  margin: 2.5rem;
+  gap: 1rem;
 }
 
-.social-card h2, p, button {
-    font-size: 0.875rem;
+.social-card h2,
+p,
+button {
+  font-size: 0.875rem;
 }
 
 .social-card img {
-    max-width: 5.875rem;
-    height: auto;
-    border-radius: 100%;
-    border: 2px solid var(--grey);
-    margin-bottom: 0.875rem;
+  max-width: 5.875rem;
+  height: auto;
+  border-radius: 100%;
+  border: 2px solid var(--grey);
+  margin-bottom: 0.875rem;
 }
 
 .social-card h1 {
-    font-size: 1.45rem;
-    font-weight: 700;
-    line-height: 1rem;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1rem;
 }
 
-.social-card h2, .link-button {
-    font-weight: 600;
+.social-card h2,
+.link-button {
+  font-weight: 600;
 }
 
 .social-card h2 {
-    color: var(--green);
-    line-height: 1rem;
-    font-size: 0.875rem;
-    margin-bottom: 0.5rem;
+  color: var(--green);
+  line-height: 1rem;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
 }
 
 .social-card p {
-    font-weight: 400;
-    opacity: 0.85;
-    padding: 0 1.5rem;
+  font-weight: 400;
+  opacity: 0.85;
+  padding: 0 1.5rem;
 }
 
 .social-card .link-tree {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    text-align: center;
-    padding-left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
 }
 
 .social-card .link-button {
-    background-color: var(--grey);
-    color: var(--white);
-    width: 100%;
-    border-radius: 0.5rem;
-    padding: 0.7125rem;
-    margin-top: 1rem;
-    color: var(--white);
-    text-decoration: none;
-    font-size: 0.875rem;
-    transition: all 0.20s ease;
+  background-color: var(--grey);
+
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.7125rem;
+  margin-top: 1rem;
+
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
 }
 
-.social-card .link-button:hover{
-    background-color: var(--green);
+.social-card a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.social-card .link-button:hover {
+  background-color: var(--green);
+  transform: scale(105%);
+  font-weight: 700;
+  cursor: pointer;
+
+  a {
     color: var(--off-black);
-    transform: scale(105%);
-    font-weight: 700;
+  }
 }
 
-@media screen and (max-width:448px) {
-    .social-card {
-        max-width: 17.28125rem;
-    }
+@media screen and (max-width: 448px) {
+  .social-card {
+    max-width: 17.28125rem;
+  }
 
-    .social-card p {
-        padding: 0 0.5rem;
-    }
+  .social-card p {
+    padding: 0 0.5rem;
+  }
 }
 
 /*Footer*/
 
 footer {
-    position: absolute;
-    bottom: 0;
-    font-size: 0.6875rem;
-    text-align: center;
-    z-index: -1;
-    color: var(--white);
-    font-family: Inter;
+  position: absolute;
+  bottom: 0.25rem;
+  font-size: 0.6875rem;
+  text-align: center;
+  z-index: -1;
+  color: var(--white);
+  font-family: Inter;
 }
 
 footer a {
-    color: var(--green);
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-decoration: none;
+  color: var(--green);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
 }
