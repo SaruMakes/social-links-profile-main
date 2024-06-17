@@ -85,7 +85,7 @@ main {
     color: var(--white);
     width: 100%;
     border-radius: 0.5rem;
-    padding: 0.7125rem;
+    padding: 0.7125rem 0;
     margin-top: 1rem;
     color: var(--white);
     text-decoration: none;
@@ -98,6 +98,12 @@ main {
     color: var(--off-black);
     transform: scale(105%);
     font-weight: 700;
+}
+
+@media screen and (max-width:448px) {
+    .social-card {
+        width: 276.5px;
+    }   
 }
 
 /*Footer*/
