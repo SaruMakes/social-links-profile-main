@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blow-preview-card---w-hover-animation-bhA1AvSYKf](https://www.frontendmentor.io/solutions/blow-preview-card---w-hover-animation-bhA1AvSYKf)
 - Live Site URL: [https://sarumakes.github.io/social-links-profile-main/](https://sarumakes.github.io/social-links-profile-main)
 
 ## My process
