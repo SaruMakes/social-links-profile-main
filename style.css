@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /*Main*/
@@ -28,10 +28,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 304px;
+    max-width: 19rem;
     color: var(--white);
     font-family: Inter;
-    margin: 40px;
+    margin: 2.5rem;
     gap: 1rem;
 }
 
@@ -40,7 +40,7 @@ main {
 }
 
 .social-card img {
-    width: 94px;
+    max-width: 5.875rem;
     height: auto;
     border-radius: 100%;
     border: 2px solid var(--grey);
@@ -53,7 +53,7 @@ main {
     line-height: 1rem;
 }
 
-.social-card h2, button {
+.social-card h2, .link-button {
     font-weight: 600;
 }
 
@@ -67,10 +67,11 @@ main {
 .social-card p {
     font-weight: 400;
     opacity: 0.85;
+    padding: 0 1.5rem;
 }
 
 .social-card .link-tree {
-    width: inherit;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +86,7 @@ main {
     color: var(--white);
     width: 100%;
     border-radius: 0.5rem;
-    padding: 0.7125rem 0;
+    padding: 0.7125rem;
     margin-top: 1rem;
     color: var(--white);
     text-decoration: none;
@@ -102,8 +103,12 @@ main {
 
 @media screen and (max-width:448px) {
     .social-card {
-        width: 276.5px;
-    }   
+        max-width: 17.28125rem;
+    }
+
+    .social-card p {
+        padding: 0 0.5rem;
+    }
 }
 
 /*Footer*/

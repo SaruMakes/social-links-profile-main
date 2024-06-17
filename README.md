@@ -57,3 +57,7 @@ In the future, I would like to improve my Figma workflow and skillset, so that I
 
 ## Author
 - Frontend Mentor - [@SaruMakes](https://www.frontendmentor.io/profile/SaruMakes)
+
+### Acknowledgements
+
+A special thanks goes out to [@kodan96](https://www.frontendmentor.io/profile/kodan96) on Frontend Mentor, for helping me improve upon my solution! I greatly appreciate it!
